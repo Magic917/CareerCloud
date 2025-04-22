@@ -7,7 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\CareerCloud.ADODataAccessLayer\CareerCloud.ADODataAccessLayer.csproj" />
+=======
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
     <ProjectReference Include="..\CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj" />
     <ProjectReference Include="..\CareerCloud.Pocos\CareerCloud.Pocos.csproj" />
   </ItemGroup>

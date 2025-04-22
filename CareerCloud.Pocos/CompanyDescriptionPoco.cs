@@ -25,8 +25,11 @@ namespace CareerCloud.Pocos
         public byte[] TimeStamp { get; set; }
 
 
+<<<<<<< HEAD
         [ForeignKey("Company")]
         public virtual CompanyProfilePoco? CompanyProfile { get; set; }
         public virtual SystemLanguageCodePoco? SystemLanguageCode { get; set; }
+=======
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
     }
 }

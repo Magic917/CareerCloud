@@ -33,6 +33,7 @@ namespace CareerCloud.Pocos
         public string PostalCode { get; set; }
         [Column("Time_Stamp")]
         public byte[] TimeStamp { get; set; }
+<<<<<<< HEAD
         public virtual SecurityLoginPoco? SecurityLogins { get; set; }
         public virtual SystemCountryCodePoco? SystemCountryCode { get; set; }
         public virtual ICollection<ApplicantWorkHistoryPoco>? ApplicantWorkHistorys { get; set; }
@@ -40,6 +41,8 @@ namespace CareerCloud.Pocos
         public virtual ICollection<ApplicantJobApplicationPoco>? ApplicantJobApplications { get; set; }
         public virtual ICollection<ApplicantResumePoco>? ApplicantResumes { get; set; }
         public virtual ICollection<ApplicantSkillPoco>? ApplicantSkills { get; set; }
+=======
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
 
     }
 }

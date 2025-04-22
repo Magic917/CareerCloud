@@ -22,9 +22,12 @@ namespace CareerCloud.Pocos
         [Column("Name")]
         public string Name { get; set; }
         public Guid Id { get; set; }
+<<<<<<< HEAD
         public virtual ICollection<ApplicantProfilePoco>? ApplicantProfile { get; set; }
 
         public virtual ICollection<ApplicantWorkHistoryPoco>? ApplicantWorkHistory { get; set; }
         public virtual ICollection<CompanyLocationPoco>? CompanyLocations { get; set; }
+=======
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
     }
 }

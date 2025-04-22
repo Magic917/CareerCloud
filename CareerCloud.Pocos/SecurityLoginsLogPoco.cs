@@ -20,10 +20,14 @@ namespace CareerCloud.Pocos
         [Column("Logon_Date")]
         public DateTime LogonDate { get; set; }
         [Column("Is_Succesful")]
+<<<<<<< HEAD
         public bool IsSuccesful { get; set; }
 
         [ForeignKey("Login")]
         public virtual SecurityLoginPoco? SecurityLogin { get; set; }
+=======
+        public Boolean IsSuccesful { get; set; }
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
 
     }
 }

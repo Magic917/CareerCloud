@@ -51,6 +51,7 @@ namespace CareerCloud.BusinessLogicLayer
             Verify(pocos);
             base.Update(pocos);
         }
+<<<<<<< HEAD
         public SystemLanguageCodePoco Get(string languageid)
 
         {
@@ -58,5 +59,7 @@ namespace CareerCloud.BusinessLogicLayer
             return _repository.GetSingle(l => l.LanguageID == languageid);
 
         }
+=======
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
     }
 }

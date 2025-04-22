@@ -46,6 +46,7 @@ namespace CareerCloud.BusinessLogicLayer
             Verify(pocos);
             base.Update(pocos);
         }
+<<<<<<< HEAD
 
         public SystemCountryCodePoco Get(string code)
 
@@ -68,5 +69,7 @@ namespace CareerCloud.BusinessLogicLayer
             _repository.Remove(pocos);
 
         }
+=======
+>>>>>>> 110d889c1008a037268288b9d2b7578fa2b05cfa
     }
 }
